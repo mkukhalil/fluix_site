@@ -1,5 +1,5 @@
 __turbopack_load_page_chunks__("/", [
-  "static/chunks/[root-of-the-server]__be957977._.js",
+  "static/chunks/[root-of-the-server]__8183cfa0._.js",
   "static/chunks/node_modules_next_dist_compiled_caaa605a._.js",
   "static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js",
   "static/chunks/node_modules_next_dist_client_5a8a528e._.js",
@@ -12,5 +12,5 @@ __turbopack_load_page_chunks__("/", [
   "static/chunks/node_modules_drizzle-orm_1ee7e990._.js",
   "static/chunks/node_modules_a6c6d001._.js",
   "static/chunks/pages_index_2da965e7._.js",
-  "static/chunks/turbopack-pages_index_1c2739e5._.js"
+  "static/chunks/turbopack-pages_index_036111a0._.js"
 ])

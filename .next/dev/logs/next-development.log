@@ -1,1 +1,43 @@
-[00:00:12.049] Server  LOG     ✓ Ready in 8s
+[00:00:04.366] Server  LOG     ✓ Ready in 3.2s
+[00:00:09.676] Server  LOG     ○ Compiling / ...
+[00:02:20.876] Server  LOG     ✓ Compiled in 760ms
+[00:03:11.330] Server  LOG     ✓ Compiled in 6.1s
+[00:03:16.135] Browser ERROR   ./pages/index.tsx:2:10
+Ecmascript file had an error
+  1 | import { Navbar } from "../client/src/components/Navbar";
+> 2 | import { Navbar } from "../client/src/components/Footer";
+    |          ^^^^^^
+  3 | import { ServiceCard } from "../client/src/components/ServiceCard";
+  4 | import { useSubmitContact } from "../client/src/hooks/use-contact";
+  5 | import { Button } from "../client/src/components/ui/button";
+
+the name `Navbar` is defined multiple times
+[00:03:16.136] Browser ERROR   ./pages/index.tsx:2:1
+Export Navbar doesn't exist in target module
+  1 | import { Navbar } from "../client/src/components/Navbar";
+> 2 | import { Navbar } from "../client/src/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { ServiceCard } from "../client/src/components/ServiceCard";
+  4 | import { useSubmitContact } from "../client/src/hooks/use-contact";
+  5 | import { Button } from "../client/src/components/ui/button";
+
+The export Navbar was not found in module [project]/client/src/components/Footer.tsx [client] (ecmascript).
+Did you mean to import Footer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:03:16.136] Browser ERROR   ./pages/index.tsx:2:1
+Export Navbar doesn't exist in target module
+  1 | import { Navbar } from "../client/src/components/Navbar";
+> 2 | import { Navbar } from "../client/src/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { ServiceCard } from "../client/src/components/ServiceCard";
+  4 | import { useSubmitContact } from "../client/src/hooks/use-contact";
+  5 | import { Button } from "../client/src/components/ui/button";
+
+The export Navbar was not found in module [project]/client/src/components/Footer.tsx [ssr] (ecmascript).
+Did you mean to import Footer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:03:39.268] Server  LOG     ✓ Compiled in 407ms
+[00:07:43.446] Server  LOG     ✓ Compiled in 3.6s
+[00:08:27.103] Server  LOG     ✓ Compiled in 296ms
+[00:08:43.927] Server  LOG     ✓ Compiled in 231ms
+[00:09:35.674] Server  LOG     ✓ Compiled in 271ms
