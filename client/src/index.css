@@ -1,53 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  /* Brand Palette - HSL values */
-  
-  /* Primary Navy: #0B1D51 -> 225 76% 18% */
+  /* Modern Palette */
   --primary: 225 76% 18%;
   --primary-foreground: 210 40% 98%;
-
-  /* Accent Neon Blue: #3BA9FF -> 206 100% 61% */
   --accent: 206 100% 61%;
   --accent-foreground: 225 76% 18%;
-
-  /* Backgrounds */
-  --background: 0 0% 98%; /* F9F9F9 */
+  --background: 210 40% 98%;
   --foreground: 225 76% 18%;
-  
   --card: 0 0% 100%;
   --card-foreground: 225 76% 18%;
- 
   --popover: 0 0% 100%;
   --popover-foreground: 225 76% 18%;
-
   --secondary: 210 40% 96%;
   --secondary-foreground: 222 47% 11%;
-
   --muted: 210 40% 96%;
   --muted-foreground: 215 16% 47%;
-
   --destructive: 0 84% 60%;
   --destructive-foreground: 210 40% 98%;
-
   --border: 214 32% 91%;
   --input: 214 32% 91%;
   --ring: 225 76% 18%;
+  --radius: 1rem;
 
-  --radius: 0.75rem;
-
-  /* Fonts */
-  --font-heading: 'Montserrat', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  /* Modern Fonts */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
 }
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border selection:bg-accent/30;
   }
   body {
     @apply bg-background text-foreground antialiased;
@@ -55,28 +42,67 @@
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
-    @apply tracking-tight;
+    @apply tracking-tight font-extrabold;
   }
 }
 
-/* Custom Utility Classes for Visual Polish */
 .text-gradient {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--accent))];
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-white via-blue-200 to-accent;
 }
 
 .bg-mesh {
-  background-color: hsla(225, 76%, 18%, 1);
-  background-image: 
-    radial-gradient(at 0% 0%, hsla(206,100%,61%,0.15) 0px, transparent 50%),
-    radial-gradient(at 100% 0%, hsla(253,100%,68%,0.1) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, hsla(206,100%,61%,0.1) 0px, transparent 50%),
-    radial-gradient(at 0% 100%, hsla(253,100%,68%,0.1) 0px, transparent 50%);
+  background: radial-gradient(circle at 50% 50%, #0B1D51 0%, #060e29 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-mesh::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(59, 169, 255, 0.1) 0%, transparent 50%);
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .glass-card {
-  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+  @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_0_20px_rgba(59,169,255,0.1)];
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(59, 169, 255, 0.5);
+}
+
+.futuristic-gradient {
+  background: linear-gradient(135deg, #0B1D51 0%, #1a2a6c 50%, #b21f1f 100%);
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #3BA9FF;
+  transform-origin: 0%;
+  z-index: 100;
 }
 
 .section-padding {
-  @apply py-20 md:py-32;
+  @apply py-24 md:py-40;
 }

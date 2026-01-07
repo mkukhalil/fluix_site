@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "wouter";
 import { Menu, X, Bot } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -7,7 +6,6 @@ import { cn } from "@/lib/utils";
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [location, setLocation] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -43,18 +41,23 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         {/* Logo */}
-        <div 
-          className="flex items-center gap-2 cursor-pointer" 
+        <div
+          className="flex items-center gap-2 cursor-pointer"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
-          <div className="bg-primary p-2 rounded-lg">
-            <Bot className="h-6 w-6 text-white" />
-          </div>
-          <span className={cn(
-            "text-xl font-bold font-heading",
-            scrolled ? "text-primary" : "text-white md:text-white"
-          )}>
-            AutoAI Solutions
+          <img
+  src="/logo.png"
+  alt="Fluix Logo"
+  className="h-10 w-10 object-contain"
+/>
+
+          <span
+            className={cn(
+              "text-xl font-bold font-heading",
+              scrolled ? "text-primary" : "text-white md:text-white"
+            )}
+          >
+            Fluix
           </span>
         </div>
 
@@ -72,7 +75,7 @@ export function Navbar() {
               {link.name}
             </button>
           ))}
-          <Button 
+          <Button
             className="rounded-full bg-accent hover:bg-accent/90 text-white shadow-lg shadow-accent/25"
             onClick={() => handleNavClick("#contact")}
           >
@@ -106,7 +109,7 @@ export function Navbar() {
               {link.name}
             </button>
           ))}
-          <Button 
+          <Button
             className="w-full rounded-full bg-accent hover:bg-accent/90 text-white"
             onClick={() => handleNavClick("#contact")}
           >
