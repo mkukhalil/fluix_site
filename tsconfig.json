@@ -1,5 +1,6 @@
 {
   "include": [
+    "pages/**/*",
     "client/src/**/*",
     "shared/**/*",
     "server/**/*"
@@ -16,28 +17,17 @@
     "noEmit": true,
     "module": "ESNext",
     "strict": true,
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable"
-    ],
+    "lib": ["esnext", "dom", "dom.iterable"],
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "allowImportingTsExtensions": true,
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "baseUrl": ".",
-    "types": [
-      "node",
-      "vite/client"
-    ],
+    "types": ["node"],
     "paths": {
-      "@/*": [
-        "./client/src/*"
-      ],
-      "@shared/*": [
-        "./shared/*"
-      ]
+      "@/*": ["./client/src/*"],
+      "@shared/*": ["./shared/*"]
     },
     "target": "ES2017",
     "allowJs": true,
