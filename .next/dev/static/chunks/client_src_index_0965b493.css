@@ -2733,6 +2733,11 @@ h1, h2, h3, h4, h5, h6 {
   color: hsl(var(--muted-foreground) / var(--tw-text-opacity, 1));
 }
 
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: hsl(var(--primary) / var(--tw-text-opacity, 1));
+}
+
 .hover\:text-primary-foreground:hover {
   --tw-text-opacity: 1;
   color: hsl(var(--primary-foreground) / var(--tw-text-opacity, 1));
@@ -3672,11 +3677,6 @@ h1, h2, h3, h4, h5, h6 {
   .md\:text-sm {
     font-size: .875rem;
     line-height: 1.25rem;
-  }
-
-  .md\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
   }
 
   .md\:opacity-0 {
