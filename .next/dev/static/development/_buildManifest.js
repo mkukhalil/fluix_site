@@ -2,12 +2,6 @@ self.__BUILD_MANIFEST = {
   "/": [
     "static/chunks/pages/index.js"
   ],
-  "/privacy": [
-    "static/chunks/pages/privacy.js"
-  ],
-  "/terms": [
-    "static/chunks/pages/terms.js"
-  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],
@@ -17,6 +11,7 @@ self.__BUILD_MANIFEST = {
     "/",
     "/_app",
     "/_error",
+    "/api/contact",
     "/privacy",
     "/terms"
   ]

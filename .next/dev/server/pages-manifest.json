@@ -2,6 +2,5 @@
   "/": "pages/index.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/privacy": "pages/privacy.js",
-  "/terms": "pages/terms.js"
+  "/api/contact": "pages/api/contact.js"
 }

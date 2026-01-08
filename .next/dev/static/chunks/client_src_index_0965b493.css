@@ -746,6 +746,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 1px;
 }
 
+.h-\[3px\] {
+  height: 3px;
+}
+
 .h-\[var\(--radix-navigation-menu-viewport-height\)\] {
   height: var(--radix-navigation-menu-viewport-height);
 }
@@ -772,10 +776,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .h-svh {
   height: 100svh;
-}
-
-.h-\[3px\] {
-  height: 3px;
 }
 
 .max-h-\[--radix-context-menu-content-available-height\] {
@@ -1805,8 +1805,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 2.5rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .pt-3 {
@@ -1819,10 +1819,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-24 {
-  padding-top: 6rem;
 }
 
 .text-left {
@@ -2377,10 +2373,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .zoom-in-95 {
   --tw-enter-scale: .95;
-}
-
-.slide-in-from-top-5 {
-  --tw-enter-translate-y: -1.25rem;
 }
 
 .duration-1000 {

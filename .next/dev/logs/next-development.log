@@ -1,17 +1,3 @@
-[00:00:07.004] Server  LOG     ✓ Ready in 5.3s
-[00:00:44.545] Server  LOG     ○ Compiling / ...
-[00:14:25.867] Server  LOG     ✓ Compiled in 1600ms
-[00:29:08.243] Server  LOG     ✓ Compiled in 2.5s
-[00:37:34.893] Server  LOG     ✓ Compiled in 419ms
-[00:38:25.758] Server  LOG     ✓ Compiled in 3.6s
-[00:39:11.057] Server  LOG     ✓ Compiled in 339ms
-[00:39:26.372] Server  LOG     ✓ Compiled in 283ms
-[00:40:09.886] Browser LOG     Refreshing page data due to server-side change
-[00:40:10.267] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./pages/terms.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:45:58.569] Server  LOG     ✓ Compiled in 3.4s
-[00:47:22.609] Server  LOG     ✓ Compiled in 592ms
-[00:47:22.798] Browser LOG     Refreshing page data due to server-side change
-[00:47:50.923] Server  LOG     ✓ Compiled in 462ms
-[00:50:57.321] Server  LOG     ✓ Compiled in 226ms
-[00:54:28.483] Server  LOG     ✓ Compiled in 851ms
-[00:58:58.589] Server  LOG     ✓ Compiled in 5.2s
+[00:00:13.138] Server  LOG     ✓ Ready in 10.8s
+[00:00:16.248] Server  LOG     ○ Compiling / ...
+[00:04:39.104] Server  LOG       Reload env: .env.local
