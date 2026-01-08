@@ -1,5 +1,3 @@
-import { Navbar } from "../client/src/components/Navbar";
-import { Footer } from "../client/src/components/Footer";
 import { ServiceCard } from "../client/src/components/ServiceCard";
 import { useSubmitContact } from "../client/src/hooks/use-contact";
 import { Button } from "../client/src/components/ui/button";
@@ -31,7 +29,7 @@ import {
   Zap,
 } from "lucide-react";
 
-import { motion , useScroll, useSpring } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { insertContactMessageSchema, type InsertContactMessage } from "../shared/schema";
@@ -42,7 +40,7 @@ export default function Home() {
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
-    restDelta: 0.001
+    restDelta: 0.001,
   });
 
   const form = useForm<InsertContactMessage>({
@@ -67,12 +65,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background font-sans overflow-x-hidden">
       <motion.div className="scroll-progress" style={{ scaleX }} />
-      <Navbar />
 
       {/* Hero Section */}
       <section
         id="home"
-        className="relative h-screen flex items-center justify-center bg-mesh text-white pt-20 overflow-hidden"
+        className="relative h-screen flex items-center justify-center bg-mesh text-white pt-24 overflow-hidden"
       >
         <div className="absolute inset-0 bg-black/40" />
         <div className="container relative z-10 px-4 md:px-6 text-center">
@@ -127,7 +124,7 @@ export default function Home() {
         </div>
         <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background to-transparent" />
       </section>
-
+<main>
       {/* Problem/Solution Section */}
       <section id="about" className="section-padding bg-background relative overflow-hidden">
         <div className="container mx-auto px-4 md:px-6">
@@ -466,7 +463,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Footer />
+      </main>
     </div>
   );
 }

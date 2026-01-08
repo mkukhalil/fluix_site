@@ -1,12 +1,6 @@
-// pages/terms.tsx
-import { Navbar } from "../client/src/components/Navbar";
-import { Footer } from "../client/src/components/Footer";
-
 export default function Terms() {
   return (
     <div className="min-h-screen bg-background text-gray-800 font-sans">
-      <Navbar />
-
       <main className="container mx-auto px-4 md:px-6 py-24">
         <h1 className="text-5xl font-bold mb-8 font-heading text-primary">Terms of Service</h1>
         <p className="mb-6">
@@ -45,8 +39,6 @@ export default function Terms() {
           Last Updated: January 2026
         </p>
       </main>
-
-      <Footer />
     </div>
   );
 }
