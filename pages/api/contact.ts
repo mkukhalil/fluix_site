@@ -6,12 +6,12 @@ type Data = {
   message: string;
 };
 
-// Create a reusable transporter using Gmail
+// Create transporter using Gmail (App Password)
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: process.env.GMAIL_USER,             // your Gmail address
-    pass: process.env.GMAIL_APP_PASSWORD,     // your app password
+    user: process.env.EMAIL_USER,  // Gmail address (from Vercel env)
+    pass: process.env.EMAIL_PASS,  // App password (from Vercel env)
   },
 });
 
@@ -20,7 +20,8 @@ export default async function handler(
   res: NextApiResponse<Data>
 ) {
   if (req.method !== "POST") {
-    return res.status(405).json({ message: "Method not allowed" });
+    res.setHeader("Allow", ["POST"]); // important for 405 handling
+    return res.status(405).json({ message: `Method ${req.method} Not Allowed` });
   }
 
   const { name, email, message } = req.body;
@@ -30,10 +31,9 @@ export default async function handler(
   }
 
   try {
-    // Send email
     await transporter.sendMail({
-      from: `"${name}" <${email}>`,         // sender info
-      to: process.env.GMAIL_USER,           // your Gmail to receive
+      from: `"${name}" <${email}>`, // sender info
+      to: process.env.EMAIL_USER,   // receiver email (your Gmail)
       subject: `New Contact Form Message from ${name}`,
       text: message,
       html: `<p><strong>Name:</strong> ${name}</p>
@@ -47,6 +47,7 @@ export default async function handler(
     return res.status(500).json({ message: "Failed to send message" });
   }
 }
+
 
 
 //pifs wmod ojvh ftay

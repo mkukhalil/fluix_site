@@ -1,1 +1,9 @@
-{}
+{
+  "[project]/client/src/components/OurProcess.tsx [client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/client/src/components/OurProcess.tsx [client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/client_src_components_OurProcess_tsx_22074e63._.js",
+      "static/chunks/client_src_components_OurProcess_tsx_af9fcf44._.js"
+    ]
+  }
+}

@@ -21,18 +21,21 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$externals$5d2f$nodemailer__$5b$external$5d$__$28$nodemailer$2c$__cjs$2c$__$5b$project$5d2f$node_modules$2f$nodemailer$29$__ = __turbopack_context__.i("[externals]/nodemailer [external] (nodemailer, cjs, [project]/node_modules/nodemailer)");
 ;
-// Create a reusable transporter using Gmail
+// Create transporter using Gmail (App Password)
 const transporter = __TURBOPACK__imported__module__$5b$externals$5d2f$nodemailer__$5b$external$5d$__$28$nodemailer$2c$__cjs$2c$__$5b$project$5d2f$node_modules$2f$nodemailer$29$__["default"].createTransport({
     service: "gmail",
     auth: {
-        user: process.env.GMAIL_USER,
-        pass: process.env.GMAIL_APP_PASSWORD
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
     }
 });
 async function handler(req, res) {
     if (req.method !== "POST") {
+        res.setHeader("Allow", [
+            "POST"
+        ]); // important for 405 handling
         return res.status(405).json({
-            message: "Method not allowed"
+            message: `Method ${req.method} Not Allowed`
         });
     }
     const { name, email, message } = req.body;
@@ -42,10 +45,9 @@ async function handler(req, res) {
         });
     }
     try {
-        // Send email
         await transporter.sendMail({
             from: `"${name}" <${email}>`,
-            to: process.env.GMAIL_USER,
+            to: process.env.EMAIL_USER,
             subject: `New Contact Form Message from ${name}`,
             text: message,
             html: `<p><strong>Name:</strong> ${name}</p>

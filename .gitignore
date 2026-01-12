@@ -1,6 +1,23 @@
-node_modules
-dist
+# Node modules
+node_modules/
+
+# Build output
+.next/
+dist/
+
+# System files
 .DS_Store
-server/public
+
+# Vite
 vite.config.ts.*
+
+# Archives
 *.tar.gz
+
+# Public folder for server (if you don’t want to track it)
+server/public/
+
+# Env files (never commit secrets)
+.env
+.env.local
+.env.*.local
