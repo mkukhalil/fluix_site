@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import { useRouter } from "next/router";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 export function Navbar() {
   const router = useRouter();
@@ -13,14 +14,15 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [showHomeLink, setShowHomeLink] = useState(false);
 
+  // Scroll handler
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       setScrolled(scrollY > 20);
 
       if (isHome) {
-        const hero = document.getElementById("home");
-        const heroHeight = hero?.offsetHeight || window.innerHeight;
+        const heroHeight =
+          document.getElementById("home")?.offsetHeight || window.innerHeight;
         setShowHomeLink(scrollY > heroHeight);
       } else {
         setShowHomeLink(true);
@@ -32,30 +34,37 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [isHome]);
 
-  const navLinks = [
-    { name: "Home", href: "#home", show: showHomeLink },
-    { name: "Services", href: "#services", show: true },
-    { name: "About", href: "#about", show: true },
-    { name: "Testimonials", href: "#testimonials", show: true },
-  ];
+  // Memoize links to prevent re-renders
+  const navLinks = useMemo(
+    () => [
+      { name: "Home", href: "#home", show: showHomeLink },
+      { name: "Services", href: "#services", show: true },
+      { name: "About", href: "#about", show: true },
+      { name: "Testimonials", href: "#testimonials", show: true },
+    ],
+    [showHomeLink]
+  );
 
-  const handleNavClick = async (href: string) => {
-    setIsOpen(false);
-    if (!isHome) {
-      await router.push("/" + href);
-      return;
-    }
-    const el = document.querySelector(href);
-    el?.scrollIntoView({ behavior: "smooth" });
-  };
+  const handleNavClick = useCallback(
+    async (href: string) => {
+      setIsOpen(false);
+      if (!isHome) {
+        await router.push("/" + href);
+        return;
+      }
+      const el = document.querySelector(href);
+      el?.scrollIntoView({ behavior: "smooth" });
+    },
+    [isHome, router]
+  );
 
-  const handleLogoClick = async () => {
+  const handleLogoClick = useCallback(async () => {
     if (!isHome) {
       await router.push("/");
     } else {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
-  };
+  }, [isHome, router]);
 
   return (
     <nav
@@ -74,10 +83,13 @@ export function Navbar() {
           onClick={handleLogoClick}
           className="flex items-center gap-3 focus:outline-none"
         >
-          <img
-            src="/logo.png"
+          <Image
+            src="/logo.webp" // convert your logo to WebP for smaller size
             alt="Fluix Logo"
-            className="h-10 w-10 object-contain"
+            width={40}
+            height={40}
+            priority // above-the-fold image
+            className="object-contain"
           />
           <span
             className={cn(
