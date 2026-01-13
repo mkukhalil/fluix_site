@@ -4,10 +4,7 @@ import { Button } from "../client/src/components/ui/button";
 import { Input } from "../client/src/components/ui/input";
 import { Textarea } from "../client/src/components/ui/textarea";
 import { Form,FormControl,FormField,FormItem,FormLabel,FormMessage,} from "../client/src/components/ui/form";
-import {Clock,TrendingUp,MessageSquare,FileBarChart,Workflow,ArrowRight,Mail,MapPin,Linkedin,Twitter,Instagram,Zap,ShoppingCart,
-  Users,
-  Briefcase
-} from "lucide-react";
+import { ArrowRight,Mail,MapPin,Linkedin,Twitter,Instagram,ShoppingCart,Users,Briefcase} from "lucide-react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -44,6 +41,10 @@ export default function Home() {
   };
 
   const OurProcess = dynamic(() => import("../client/src/components/OurProcess"), { ssr: false });
+  const AiAdvantage = dynamic(() => import("../client/src/components/AiAdvantage"), { ssr: false });
+  const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+  const CallToAction = dynamic(() => import("../client/src/components/CallToAction"), { ssr: false });
 
   return (
     <>
@@ -151,9 +152,9 @@ export default function Home() {
               Who we work with
             </motion.h2>
           </div>
-<h2 className="sr-only">AI Automation for Local Businesses</h2>
-<h2 className="sr-only">AI Automation for Agencies</h2>
-<h2 className="sr-only">Enterprise-Grade AI Automation</h2>
+            <h2 className="sr-only">AI Automation for Local Businesses</h2>
+            <h2 className="sr-only">AI Automation for Agencies</h2>
+            <h2 className="sr-only">Enterprise-Grade AI Automation</h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ServiceCard
@@ -178,229 +179,11 @@ export default function Home() {
         </div>
       </section>
 
-    < OurProcess />
-{/* The AI Advantage Section */}
-<section id="about" className="section-padding bg-background relative overflow-hidden">
-  <div className="container mx-auto px-4 md:px-6">
-    {/* Heading */}
-    <div className="text-center mb-24">
-      <motion.h2
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        className="text-4xl md:text-6xl font-bold text-primary mb-6 font-heading"
-      >
-        The AI Advantage
-      </motion.h2>
-      <p className="text-xl text-gray-600 max-w-2xl mx-auto font-light">
-        Stop wasting time on repetitive tasks. Automate, scale, and grow with intelligent solutions tailored for businesses of any size.
-      </p>
-    </div>
-
-    {/* Problem-Solution Cards */}
-    <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
-      {[
-        {
-          icon: <Clock className="w-10 h-10 text-red-500" />,
-          title: "Zero Delay Leads",
-          problem: "Slow follow-ups cost deals",
-          solution: "Instant AI lead qualification & notifications",
-        },
-        {
-          icon: <MessageSquare className="w-10 h-10 text-accent" />,
-          title: "Always-On Communication",
-          problem: "Manual responses waste hours",
-          solution: "24/7 AI chatbots for Email & WhatsApp",
-        },
-        {
-          icon: <TrendingUp className="w-10 h-10 text-green-500" />,
-          title: "Hyper-Efficiency",
-          problem: "Repetitive workflows slow your growth",
-          solution: "End-to-end AI automation for all processes",
-        },
-        {
-          icon: <Workflow className="w-10 h-10 text-blue-500" />,
-          title: "Scalable Solutions",
-          problem: "Small systems can’t handle growth",
-          solution: "Flexible AI that grows with your business",
-        },
-        {
-          icon: <Users className="w-10 h-10 text-purple-500" />,
-          title: "Agency & Enterprise Ready",
-          problem: "One-size-fits-all solutions fail",
-          solution: "Tailored tools for agencies & large teams",
-        },
-      ].map((item, i) => (
-        <motion.div
-          key={i}
-          initial={{ opacity: 0, scale: 0.9, y: 50 }}
-          whileInView={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ delay: i * 0.15, type: "spring", stiffness: 100 }}
-          viewport={{ once: true }}
-          className="glass-card p-10 rounded-3xl text-center hover:scale-105 transition-all duration-500 group"
-        >
-          <div className="inline-flex items-center justify-center p-6 bg-primary/5 rounded-2xl mb-8 group-hover:bg-accent/10 transition-colors shadow-inner">
-            {item.icon}
-          </div>
-          <h3 className="text-2xl font-bold text-gray-900 mb-4 font-heading">{item.title}</h3>
-          <p className="text-red-500 font-semibold mb-6 uppercase tracking-widest text-xs">{item.problem}</p>
-          <div className="h-px w-20 bg-gray-100 mx-auto mb-6" />
-          <p className="text-green-600 font-bold flex items-center justify-center gap-3">
-            <Zap className="w-5 h-5 fill-current" />
-            {item.solution}
-          </p>
-        </motion.div>
-      ))}
-    </div>
-
-    {/* CTA */}
-    <div className="text-center mt-20">
-      <Button
-        onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" })}
-        className="rounded-full bg-accent hover:bg-accent/90 text-white px-10 py-4 text-lg font-semibold shadow-lg shadow-accent/25"
-      >
-        Book Your Free Demo
-      </Button>
-    </div>
-  </div>
-</section>
-
-
-      {/* Services Section */}
-      <section
-        id="services"
-        className="section-padding bg-gray-50 relative overflow-hidden"
-      >
-        <div className="container mx-auto px-4 md:px-6 relative z-10">
-          <div className="text-center mb-24">
-            <motion.h2 
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="text-4xl md:text-6xl font-bold text-primary mb-6 font-heading"
-            >
-              Proprietary Solutions
-            </motion.h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto font-light">
-              We architect the neural pathways of your business automation.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <ServiceCard
-              icon={<MessageSquare className="w-6 h-6" />}
-              title="WhatsApp Chatbots"
-              description="Intelligent conversational agents that handle customer support, bookings, and inquiries 24/7 on WhatsApp."
-              delay={0}
-            />
-            <ServiceCard
-              icon={<Users className="w-6 h-6" />}
-              title="Lead Automation & CRM"
-              description="Automatically capture, qualify, and organize leads from all channels directly into your CRM system."
-              delay={0.1}
-            />
-            <ServiceCard
-              icon={<FileBarChart className="w-6 h-6" />}
-              title="Reports & Invoicing"
-              description="Generate detailed reports and send professional invoices automatically based on your business logic."
-              delay={0.2}
-            />
-            <ServiceCard
-              icon={<Workflow className="w-6 h-6" />}
-              title="Custom AI Workflows"
-              description="Bespoke automation architectures designed specifically for your unique operational bottlenecks."
-              delay={0.3}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section id="testimonials" className="section-padding bg-background relative">
-        <div className="container mx-auto px-4 md:px-6">
-          <motion.h2 
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-4xl md:text-6xl font-bold text-primary text-center mb-24 font-heading"
-          >
-            Validated Results
-          </motion.h2>
-
-          <div className="grid md:grid-cols-3 gap-10">
-            {[
-              {
-                quote: "Fluix completely transformed how we handle patient bookings. We save 20 hours a week!",
-                author: "Dr. Sarah Firdous",
-                role: "Dental Clinic Owner",
-              },
-              {
-                quote: "The lead qualification bot increased our conversion rate by 40% in just two months.",
-                author: "James Wilson",
-                role: "Real Estate Agency Director",
-              },
-              {
-                quote: "I can finally focus on strategy instead of copy-pasting data. The ROI was immediate.",
-                author: "Elena Rodriguez",
-                role: "E-commerce Founder",
-              },
-            ].map((testimonial, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, x: i % 2 === 0 ? -50 : 50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: i * 0.1 }}
-                className="glass-card p-10 rounded-3xl border border-gray-100/50 shadow-2xl relative"
-              >
-                <div className="flex gap-1 mb-8">
-                  {[1, 2, 3, 4, 5].map((star) => (
-                    <Zap key={star} className="w-4 h-4 text-accent fill-current shadow-[0_0_10px_rgba(59,169,255,0.5)]" />
-                  ))}
-                </div>
-                <p className="text-gray-700 mb-10 italic text-lg leading-relaxed font-light">
-                  "{testimonial.quote}"
-                </p>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center font-bold text-accent">
-                    {testimonial.author.charAt(0)}
-                  </div>
-                  <div>
-                    <div className="font-bold text-primary">{testimonial.author}</div>
-                    <div className="text-sm text-gray-500 font-medium">{testimonial.role}</div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-32 futuristic-gradient text-white relative overflow-hidden">
-        <div className="container relative z-10 mx-auto px-4 text-center">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, type: "spring" }}
-          >
-            <h2 className="text-4xl md:text-7xl font-bold font-heading mb-8">
-              Initiate Hyperscale.
-            </h2>
-            <p className="text-xl md:text-2xl text-blue-100 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-              Unlock the full potential of your business with autonomous AI integration.
-            </p>
-            <Button
-              onClick={scrollToContact}
-              size="lg"
-              className="h-20 px-12 text-xl rounded-full bg-white text-primary hover:bg-blue-50 font-bold shadow-[0_0_30px_rgba(255,255,255,0.3)] transition-all hover:scale-110 active:scale-95"
-            >
-              Get Started Now <ArrowRight className="ml-3 w-6 h-6" />
-            </Button>
-          </motion.div>
-        </div>
-      </section>
+    <OurProcess />
+    <AiAdvantage />
+    <Services />
+    <Testimonials />
+    <CallToAction />
 
       {/* Contact Form Section */}
       <section id="contact" className="section-padding bg-gray-50 relative overflow-hidden">

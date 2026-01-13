@@ -1,259 +1,358 @@
-[00:00:04.283] Server  LOG     ✓ Ready in 3s
-[00:00:18.426] Server  LOG     ○ Compiling / ...
-[00:02:41.456] Server  LOG     ✓ Compiled in 2.4s
-[00:03:09.059] Server  LOG     ✓ Compiled in 359ms
-[00:03:50.640] Server  LOG     ✓ Compiled in 654ms
-[00:14:36.732] Server  LOG     ✓ Compiled in 2.7s
-[00:20:42.681] Browser ERROR   uncaughtError: ReferenceError: Shop is not defined
-[00:20:42.688] Browser ERROR   uncaughtError: ReferenceError: Shop is not defined
-[00:20:42.688] Browser ERROR   The above error occurred in the <Home> component:
+[00:00:06.625] Server  LOG     ✓ Ready in 5.2s
+[00:00:10.654] Server  LOG     ○ Compiling / ...
+[00:02:32.595] Server  LOG     ✓ Compiled in 1202ms
+[00:07:24.229] Server  LOG     ✓ Compiled in 2.1s
+[00:11:34.355] Server  LOG     ✓ Compiled in 1133ms
+[00:11:53.371] Server  LOG     ✓ Compiled in 290ms
+[00:14:36.955] Server  LOG     ✓ Compiled in 974ms
+[00:17:53.779] Server  ERROR   ⨯ ./pages/index.tsx
+Module not found: Can't resolve '../client/src/components/CTA'
 
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fpages%252Findex.tsx+%255Bclient%255D+%2528ecmascript%2529:51:184)
-    at main
-    at MainLayout (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1497:23)
-    at Provider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:2767:21)
-    at TooltipProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:6811:13)
-    at QueryClientProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:583:30)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1553:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js:5354:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1117:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1894:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3085:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3184:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3392:17)
 
-React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:20:44.845] Server  ERROR   ReferenceError: Shop is not defined
-[00:20:44.948] Server  ERROR   ⨯ ReferenceError: Shop is not defined
-[00:20:45.063] Server  ERROR   ⨯ ReferenceError: Shop is not defined
-[00:20:45.087] Server  LOG     ✓ Compiled in 4.7s
-[00:20:48.273] Browser ERROR   uncaughtError: ReferenceError: Shop is not defined
-[00:21:23.524] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:21:24.204] Server  LOG     ✓ Compiled in 355ms
-[00:38:29.623] Server  LOG     ✓ Compiled in 1474ms
-[00:42:24.816] Server  LOG     ✓ Compiled in 296ms
-[00:42:26.055] Browser ERROR   uncaughtError: ReferenceError: Shop is not defined
-[00:42:26.062] Browser ERROR   uncaughtError: ReferenceError: Shop is not defined
-[00:42:26.062] Browser ERROR   The above error occurred in the <Home> component:
+https://nextjs.org/docs/messages/module-not-found
 
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fpages%252Findex.tsx+%255Bclient%255D+%2528ecmascript%2529:51:184)
-    at main
-    at MainLayout (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1497:23)
-    at Provider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:2767:21)
-    at TooltipProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:6811:13)
-    at QueryClientProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:583:30)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1553:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js:5354:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1117:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1894:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3085:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3184:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3392:17)
 
-React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:46:31.684] Server  LOG     ✓ Compiled in 3.4s
-[00:51:12.530] Server  LOG     ✓ Compiled in 659ms
-[00:52:25.669] Server  LOG     ✓ Compiled in 516ms
-[00:57:31.240] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.241] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:57:31.242] Browser ERROR   The above error occurred in the <ServiceCard> component:
+[00:17:53.782] Server  ERROR   ⨯ ./pages/index.tsx
+Module not found: Can't resolve '../client/src/components/CTA'
 
-    at ServiceCard (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fclient%252Fsrc%252Fcomponents%252FServiceCard.tsx+%255Bclient%255D+%2528ecmascript%2529:12:24)
-    at div
-    at div
-    at section
-    at main
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fpages%252Findex.tsx+%255Bclient%255D+%2528ecmascript%2529:53:184)
-    at main
-    at MainLayout (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1497:23)
-    at Provider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:2767:21)
-    at TooltipProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:6811:13)
-    at QueryClientProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:583:30)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1553:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js:5354:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1117:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1894:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3085:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3184:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3392:17)
 
-React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:57:31.242] Browser ERROR   The above error occurred in the <ServiceCard> component:
+https://nextjs.org/docs/messages/module-not-found
 
-    at ServiceCard (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fclient%252Fsrc%252Fcomponents%252FServiceCard.tsx+%255Bclient%255D+%2528ecmascript%2529:12:24)
-    at div
-    at div
-    at section
-    at main
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fpages%252Findex.tsx+%255Bclient%255D+%2528ecmascript%2529:53:184)
-    at main
-    at MainLayout (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1497:23)
-    at Provider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:2767:21)
-    at TooltipProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:6811:13)
-    at QueryClientProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:583:30)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1553:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js:5354:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1117:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1894:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3085:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3184:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3392:17)
 
-React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:57:31.242] Browser ERROR   The above error occurred in the <ServiceCard> component:
+[00:17:53.813] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
 
-    at ServiceCard (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fclient%252Fsrc%252Fcomponents%252FServiceCard.tsx+%255Bclient%255D+%2528ecmascript%2529:12:24)
-    at div
-    at div
-    at section
-    at main
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fpages%252Findex.tsx+%255Bclient%255D+%2528ecmascript%2529:53:184)
-    at main
-    at MainLayout (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1497:23)
-    at Provider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:2767:21)
-    at TooltipProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:6811:13)
-    at QueryClientProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:583:30)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1553:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js:5354:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1117:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1894:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3085:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3184:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3392:17)
 
-React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:57:31.242] Browser ERROR   The above error occurred in the <ServiceCard> component:
 
-    at ServiceCard (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fclient%252Fsrc%252Fcomponents%252FServiceCard.tsx+%255Bclient%255D+%2528ecmascript%2529:12:24)
-    at div
-    at div
-    at section
-    at main
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fpages%252Findex.tsx+%255Bclient%255D+%2528ecmascript%2529:53:184)
-    at main
-    at MainLayout (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1497:23)
-    at Provider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:2767:21)
-    at TooltipProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:6811:13)
-    at QueryClientProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:583:30)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1553:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js:5354:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1117:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1894:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3085:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3184:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3392:17)
+https://nextjs.org/docs/messages/module-not-found
 
-React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:57:31.242] Browser ERROR   The above error occurred in the <ServiceCard> component:
 
-    at ServiceCard (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fclient%252Fsrc%252Fcomponents%252FServiceCard.tsx+%255Bclient%255D+%2528ecmascript%2529:12:24)
-    at div
-    at div
-    at section
-    at main
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fpages%252Findex.tsx+%255Bclient%255D+%2528ecmascript%2529:53:184)
-    at main
-    at MainLayout (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1497:23)
-    at Provider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:2767:21)
-    at TooltipProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:6811:13)
-    at QueryClientProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:583:30)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1553:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js:5354:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1117:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1894:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3085:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3184:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3392:17)
+[00:17:53.876] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
 
-React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:57:31.242] Browser ERROR   The above error occurred in the <ServiceCard> component:
 
-    at ServiceCard (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fclient%252Fsrc%252Fcomponents%252FServiceCard.tsx+%255Bclient%255D+%2528ecmascript%2529:12:24)
-    at div
-    at div
-    at section
-    at main
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fpages%252Findex.tsx+%255Bclient%255D+%2528ecmascript%2529:53:184)
-    at main
-    at MainLayout (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1497:23)
-    at Provider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:2767:21)
-    at TooltipProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:6811:13)
-    at QueryClientProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:583:30)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1553:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js:5354:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1117:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1894:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3085:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3184:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3392:17)
 
-React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:57:31.242] Browser ERROR   The above error occurred in the <ServiceCard> component:
+https://nextjs.org/docs/messages/module-not-found
 
-    at ServiceCard (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fclient%252Fsrc%252Fcomponents%252FServiceCard.tsx+%255Bclient%255D+%2528ecmascript%2529:12:24)
-    at div
-    at div
-    at section
-    at main
-    at div
-    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__fb2a6c6f._.js?id=%255Bproject%255D%252Fpages%252Findex.tsx+%255Bclient%255D+%2528ecmascript%2529:53:184)
-    at main
-    at MainLayout (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1497:23)
-    at Provider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:2767:21)
-    at TooltipProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:6811:13)
-    at QueryClientProvider (http://localhost:3000/_next/static/chunks/node_modules_547388c0._.js:583:30)
-    at MyApp (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__77ce29ae._.js:1553:18)
-    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js:5354:43)
-    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1117:9)
-    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/node_modules_next_dist_75b597d7._.js:1894:34)
-    at Container (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3085:1)
-    at AppContainer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3184:25)
-    at Root (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:3392:17)
 
-React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:57:31.688] Server  LOG     ✓ Compiled in 1740ms
-[00:58:00.742] Server  ERROR   ReferenceError: React is not defined
-[00:58:00.768] Server  ERROR   ⨯ ReferenceError: React is not defined
-[00:58:00.795] Server  ERROR   ⨯ ReferenceError: React is not defined
-[00:58:01.658] Browser ERROR   uncaughtError: ReferenceError: React is not defined
-[00:59:28.464] Server  LOG     ✓ Compiled in 1157ms
-[00:59:28.904] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:03:33.760] Server  LOG     ✓ Compiled in 526ms
-[01:07:27.198] Server  LOG     ✓ Compiled in 2s
-[01:14:29.286] Server  LOG     ✓ Compiled in 2.2s
-[01:18:25.965] Server  LOG     ✓ Compiled in 347ms
-[01:19:00.091] Server  LOG     ✓ Compiled in 471ms
-[01:24:55.266] Server  LOG     ✓ Compiled in 4.9s
-[01:26:53.865] Server  LOG     ✓ Compiled in 362ms
-[01:33:03.946] Server  LOG     ✓ Compiled in 6.2s
-[01:56:41.936] Server  LOG     ✓ Compiled in 1506ms
-[01:59:56.419] Server  LOG     ✓ Compiled in 273ms
-[02:03:23.702] Server  LOG     ✓ Compiled in 773ms
-[02:03:50.588] Server  LOG     ✓ Compiled in 523ms
-[02:16:11.267] Server  LOG     ✓ Compiled in 842ms
-[02:16:23.616] Server  LOG     ✓ Compiled in 281ms
-[02:16:38.464] Server  LOG     ✓ Compiled in 309ms
-[02:19:17.050] Server  LOG     ✓ Compiled in 417ms
-[02:22:02.992] Server  LOG     ✓ Compiled in 282ms
-[02:33:19.362] Server  LOG     ✓ Compiled in 756ms
-[02:38:21.365] Server  LOG     ✓ Compiled in 381ms
-[02:43:31.712] Server  LOG     ✓ Compiled in 7.3s
-[02:51:13.680] Server  ERROR   Email sending error: Error: Missing credentials for "PLAIN"
+[00:17:53.887] Server  ERROR   ⨯ ./pages/index.tsx
+Module not found: Can't resolve '../client/src/components/CTA'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:53.897] Server  ERROR   ⨯ ./pages/index.tsx
+Module not found: Can't resolve '../client/src/components/CTA'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:53.918] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:53.930] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:53.958] Server  LOG     ✓ Compiled in 1144ms
+[00:17:55.628] Server  ERROR   ⨯ ./pages/index.tsx
+Module not found: Can't resolve '../client/src/components/CTA'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.630] Server  ERROR   ⨯ ./pages/index.tsx
+Module not found: Can't resolve '../client/src/components/CTA'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.642] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.669] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.687] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.741] Server  ERROR   ⨯ ./pages/index.tsx
+Module not found: Can't resolve '../client/src/components/CTA'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.746] Server  ERROR   ⨯ ./pages/index.tsx
+Module not found: Can't resolve '../client/src/components/CTA'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.756] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.775] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.801] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.905] Server  ERROR   ⨯ ./pages/index.tsx
+Module not found: Can't resolve '../client/src/components/CTA'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.917] Server  ERROR   ⨯ ./pages/index.tsx
+Module not found: Can't resolve '../client/src/components/CTA'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.938] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.959] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.991] Server  ERROR   ⨯ ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:03.175] Browser ERROR   uncaughtError: Error: ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:04.565] Browser ERROR   ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+https://nextjs.org/docs/messages/module-not-found
+[00:18:04.565] Browser ERROR   ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+https://nextjs.org/docs/messages/module-not-found
+[00:18:04.790] Browser ERROR   ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+https://nextjs.org/docs/messages/module-not-found
+[00:20:07.095] Server  LOG     ✓ Compiled in 773ms
+[00:20:08.144] Browser ERROR   ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+https://nextjs.org/docs/messages/module-not-found
+[00:20:08.144] Browser ERROR   ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+https://nextjs.org/docs/messages/module-not-found
+[00:20:14.786] Browser ERROR   ./pages/index.tsx:48:29
+Module not found: Can't resolve '../client/src/components/CTA'
+  46 |   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
+  47 |   const Services = dynamic(() => import("../client/src/components/Services"), { ssr: false });
+> 48 |   const CTA = dynamic(() => import("../client/src/components/CTA"), { ssr: false });
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   return (
+  51 |     <>
+
+https://nextjs.org/docs/messages/module-not-found
+[00:20:14.844] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:18.225] Server  LOG     ✓ Compiled in 451ms
+[00:27:11.874] Server  LOG     ✓ Compiled in 239ms
