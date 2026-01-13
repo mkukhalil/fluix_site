@@ -10,7 +10,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { insertContactMessageSchema, type InsertContactMessage } from "../shared/schema";
 import Head from "next/head";
-import dynamic from "next/dynamic";
+import dynamic from "next/dynamic"; 
 
 export default function Home() {
   const submitContact = useSubmitContact();
@@ -76,6 +76,7 @@ export default function Home() {
       <motion.div className="scroll-progress" style={{ scaleX }} />
 
       {/* Hero Section */}
+     
       <section
         id="home"
         className=" relative h-screen flex items-center justify-center bg-mesh text-white pt-24 overflow-hidden"
@@ -95,45 +96,52 @@ export default function Home() {
               className="inline-block mb-6 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-md shadow-[0_0_15px_rgba(59,169,255,0.3)]"
             >
               <span className="text-sm font-medium text-blue-200">
-                🚀 AI-Powered Business Future
+                 AI-Powered Business Future
               </span>
             </motion.div>
 
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-heading mb-6 leading-tight tracking-tighter">
-              AI Automation for Businesses That Want to 
-              <span className="text-accent glow-text italic"> Scale.</span>
-            </h1>
+      
+      <h1 className="text-[2.25rem] leading-tight sm:text-5xl md:text-6xl lg:text-7xl font-bold font-heading tracking-tight mb-6">
+        AI Automation for Businesses That Want to
+        <span className="block text-accent italic"> Scale Faster</span>
+      </h1>
 
-            <p className="text-xl md:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto leading-relaxed font-light">
-              We design and deploy AI systems for local businesses, agencies, and enterprises,
-              automating leads, customer support, reporting, and workflows securely at scale.
-            </p>
+  
+      <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+        We design and deploy AI systems for local businesses, agencies, and enterprises, automating leads, customer support,
+        reporting, and workflows
+      </p>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <Button
-                onClick={scrollToContact}
-                size="lg"
-                className="w-full sm:w-auto text-lg h-16 px-10 rounded-full bg-accent hover:bg-accent/90 text-white font-bold shadow-[0_0_20px_rgba(59,169,255,0.5)] transition-all hover:scale-105 active:scale-95"
-              >
-                Start Automating <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-              <Button
-                onClick={() =>
-                  document
-                    .getElementById("services")
-                    ?.scrollIntoView({ behavior: "smooth" })
-                }
-                variant="outline"
-                size="lg"
-                className="w-full sm:w-auto text-lg h-16 px-10 rounded-full border-white/30 bg-white/5 backdrop-blur-md text-white hover:bg-white/10 hover:border-white transition-all hover:scale-105"
-              >
-                Explore Solutions
-              </Button>
-            </div>
-          </motion.div>
-        </div>
-        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background to-transparent" />
-      </section>
+    
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <Button
+          onClick={scrollToContact}
+          size="lg"
+          className="w-full sm:w-auto h-14 px-8 rounded-full bg-accent text-white font-semibold shadow-[0_0_20px_rgba(59,169,255,0.5)] transition-transform active:scale-95"
+        >
+          Start Automating <ArrowRight className="ml-2 w-5 h-5" />
+        </Button>
+
+        <Button
+          onClick={() =>
+            document
+              .getElementById("services")
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
+          variant="outline"
+          size="lg"
+          className="w-full sm:w-auto h-14 px-8 rounded-full border-white/30 bg-white/5 backdrop-blur-md text-white hover:bg-white/10"
+        >
+          View Solutions
+        </Button>
+      </div>
+    </motion.div>
+  </div>
+
+  
+  <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-background to-transparent" />
+</section>
+
       <h2 className="sr-only">AI Automation for Local Businesses, Agencies, and Enterprises</h2>
 
 <main>

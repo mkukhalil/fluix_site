@@ -64,13 +64,13 @@
   width: 200%;
   height: 200%;
   background: radial-gradient(circle at center, rgba(59, 169, 255, 0.1) 0%, transparent 50%);
-  animation: rotate 20s linear infinite;
-}
+  
+} 
 
-@keyframes rotate {
+ @keyframes rotate {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} 
 
 .glass-card {
   @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_0_20px_rgba(59,169,255,0.1)];
