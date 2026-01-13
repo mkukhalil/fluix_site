@@ -571,7 +571,7 @@ function Home() {
                         children: "AI Automation Services for Businesses | Fluix"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 53,
+                        lineNumber: 52,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -579,7 +579,7 @@ function Home() {
                         content: "Fluix provides AI automation services for local businesses, agencies, and enterprises. Automate leads, customer support, reporting, and workflows with scalable AI systems."
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 54,
+                        lineNumber: 53,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -587,7 +587,7 @@ function Home() {
                         content: "index, follow"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 58,
+                        lineNumber: 57,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
@@ -595,7 +595,7 @@ function Home() {
                         href: "https://fluix-site.vercel.app/"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 59,
+                        lineNumber: 58,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -603,7 +603,7 @@ function Home() {
                         content: "AI Automation Services for Businesses | Fluix"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 62,
+                        lineNumber: 61,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -611,7 +611,7 @@ function Home() {
                         content: "AI automation for local businesses, agencies, and enterprises. Reduce manual work and scale operations with Fluix."
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 63,
+                        lineNumber: 62,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -619,7 +619,7 @@ function Home() {
                         content: "website"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 67,
+                        lineNumber: 66,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -627,7 +627,7 @@ function Home() {
                         content: "https://fluix-site.vercel.app/"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 68,
+                        lineNumber: 67,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -635,7 +635,7 @@ function Home() {
                         content: "https://fluix-site.vercel.app/og-image.png"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 69,
+                        lineNumber: 68,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -643,7 +643,7 @@ function Home() {
                         content: "summary_large_image"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 70,
+                        lineNumber: 69,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -651,7 +651,7 @@ function Home() {
                         content: "AI Automation Services for Businesses | Fluix"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 71,
+                        lineNumber: 70,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -659,7 +659,7 @@ function Home() {
                         content: "AI automation for local businesses, agencies, and enterprises. Reduce manual work and scale operations with Fluix."
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 72,
+                        lineNumber: 71,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -667,13 +667,13 @@ function Home() {
                         content: "https://fluix-site.vercel.app/og-image.png"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 73,
+                        lineNumber: 72,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.tsx",
-                lineNumber: 52,
+                lineNumber: 51,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -686,27 +686,27 @@ function Home() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 77,
+                        lineNumber: 76,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
                         id: "home",
-                        className: " relative h-screen flex items-center justify-center bg-mesh text-white pt-24 overflow-hidden",
+                        className: "relative h-screen flex items-center justify-center bg-mesh text-white pt-10 overflow-hidden",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-black/40"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 85,
-                                columnNumber: 9
+                                lineNumber: 84,
+                                columnNumber: 3
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "container relative z-10 px-4 md:px-6 text-center",
+                                className: "container relative z-10 px-4 sm:px-6 md:px-8 text-center",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$2c$__$5b$project$5d2f$node_modules$2f$framer$2d$motion$29$__["motion"].div, {
                                     initial: {
                                         opacity: 0,
                                         y: 50,
-                                        scale: 0.9
+                                        scale: 0.95
                                     },
                                     animate: {
                                         opacity: 1,
@@ -722,12 +722,12 @@ function Home() {
                                             1
                                         ]
                                     },
-                                    className: "max-w-4xl mx-auto",
+                                    className: "max-w-3xl mx-auto",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$2c$__$5b$project$5d2f$node_modules$2f$framer$2d$motion$29$__["motion"].div, {
                                             initial: {
                                                 opacity: 0,
-                                                scale: 0.8
+                                                scale: 0.85
                                             },
                                             animate: {
                                                 opacity: 1,
@@ -736,22 +736,22 @@ function Home() {
                                             transition: {
                                                 delay: 0.2
                                             },
-                                            className: "inline-block mb-6 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-md shadow-[0_0_15px_rgba(59,169,255,0.3)]",
+                                            className: "inline-block mb-4 sm:mb-6 px-3 py-1 rounded-full bg-white/10 border border-white/20 backdrop-blur-md shadow-[0_0_12px_rgba(59,169,255,0.3)]",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                                className: "text-sm font-medium text-blue-200",
+                                                className: "text-xs sm:text-sm font-medium text-blue-200",
                                                 children: "AI-Powered Business Future"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 99,
-                                                columnNumber: 15
+                                                lineNumber: 98,
+                                                columnNumber: 9
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 93,
-                                            columnNumber: 13
+                                            lineNumber: 92,
+                                            columnNumber: 7
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                                            className: "text-[2.25rem] leading-tight sm:text-5xl md:text-6xl lg:text-7xl font-bold font-heading tracking-tight mb-6",
+                                            className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-heading tracking-tight mb-4 sm:mb-6 leading-snug sm:leading-tight",
                                             children: [
                                                 "AI Automation for Businesses That Want to",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
@@ -759,43 +759,43 @@ function Home() {
                                                     children: " Scale Faster"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 107,
+                                                    lineNumber: 105,
                                                     columnNumber: 9
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 103,
                                             columnNumber: 7
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-base sm:text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto font-light leading-relaxed",
-                                            children: "We design and deploy AI systems for local businesses, agencies, and enterprises, automating leads, customer support, reporting, and workflows"
+                                            className: "text-sm sm:text-base md:text-lg text-gray-200 mb-6 sm:mb-10 max-w-xl sm:max-w-2xl mx-auto font-light leading-relaxed",
+                                            children: "We design and deploy AI systems for local businesses, agencies, and enterprises, automating leads, customer support, reporting, and workflows."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 111,
+                                            lineNumber: 108,
                                             columnNumber: 7
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                            className: "flex flex-col sm:flex-row items-center justify-center gap-4",
+                                            className: "flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                                     onClick: scrollToContact,
                                                     size: "lg",
-                                                    className: "w-full sm:w-auto h-14 px-8 rounded-full bg-accent text-white font-semibold shadow-[0_0_20px_rgba(59,169,255,0.5)] transition-transform active:scale-95",
+                                                    className: "w-full sm:w-auto h-12 sm:h-14 px-6 sm:px-8 rounded-full bg-accent text-white font-semibold shadow-[0_0_15px_rgba(59,169,255,0.5)] transition-transform active:scale-95",
                                                     children: [
                                                         "Start Automating ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
-                                                            className: "ml-2 w-5 h-5"
+                                                            className: "ml-2 w-4 sm:w-5 h-4 sm:h-5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 123,
+                                                            lineNumber: 119,
                                                             columnNumber: 28
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 114,
                                                     columnNumber: 9
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -804,41 +804,41 @@ function Home() {
                                                         }),
                                                     variant: "outline",
                                                     size: "lg",
-                                                    className: "w-full sm:w-auto h-14 px-8 rounded-full border-white/30 bg-white/5 backdrop-blur-md text-white hover:bg-white/10",
+                                                    className: "w-full sm:w-auto h-12 sm:h-14 px-6 sm:px-8 rounded-full border-white/30 bg-white/5 backdrop-blur-md text-white hover:bg-white/10",
                                                     children: "View Solutions"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 126,
+                                                    lineNumber: 122,
                                                     columnNumber: 9
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 113,
                                             columnNumber: 7
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 87,
-                                    columnNumber: 11
+                                    lineNumber: 86,
+                                    columnNumber: 5
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 86,
-                                columnNumber: 9
+                                lineNumber: 85,
+                                columnNumber: 3
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-background to-transparent"
+                                className: "absolute bottom-0 left-0 w-full h-20 sm:h-24 bg-gradient-to-t from-background to-transparent"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 143,
+                                lineNumber: 138,
                                 columnNumber: 3
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 81,
+                        lineNumber: 80,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -846,7 +846,7 @@ function Home() {
                         children: "AI Automation for Local Businesses, Agencies, and Enterprises"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 146,
+                        lineNumber: 142,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("main", {
@@ -874,12 +874,12 @@ function Home() {
                                                 children: "Who we work with"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 151,
                                                 columnNumber: 13
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 154,
+                                            lineNumber: 150,
                                             columnNumber: 11
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -887,7 +887,7 @@ function Home() {
                                             children: "AI Automation for Local Businesses"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 164,
+                                            lineNumber: 160,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -895,7 +895,7 @@ function Home() {
                                             children: "AI Automation for Agencies"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 165,
+                                            lineNumber: 161,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
@@ -903,7 +903,7 @@ function Home() {
                                             children: "Enterprise-Grade AI Automation"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 162,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -914,7 +914,7 @@ function Home() {
                                                         className: "w-10 h-10 text-primary"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 170,
+                                                        lineNumber: 166,
                                                         columnNumber: 19
                                                     }, void 0),
                                                     title: "Local Businesses",
@@ -922,7 +922,7 @@ function Home() {
                                                     delay: 0.05
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 165,
                                                     columnNumber: 13
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ServiceCard$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["ServiceCard"], {
@@ -930,7 +930,7 @@ function Home() {
                                                         className: "w-10 h-10 text-primary"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 176,
+                                                        lineNumber: 172,
                                                         columnNumber: 19
                                                     }, void 0),
                                                     title: "Agencies",
@@ -938,7 +938,7 @@ function Home() {
                                                     delay: 0.1
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 175,
+                                                    lineNumber: 171,
                                                     columnNumber: 11
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ServiceCard$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["ServiceCard"], {
@@ -946,7 +946,7 @@ function Home() {
                                                         className: "w-10 h-10 text-primary"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 182,
+                                                        lineNumber: 178,
                                                         columnNumber: 19
                                                     }, void 0),
                                                     title: "Enterprises",
@@ -954,49 +954,49 @@ function Home() {
                                                     delay: 0.15
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.tsx",
-                                                    lineNumber: 181,
+                                                    lineNumber: 177,
                                                     columnNumber: 11
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.tsx",
-                                            lineNumber: 168,
+                                            lineNumber: 164,
                                             columnNumber: 11
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 153,
+                                    lineNumber: 149,
                                     columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 150,
+                                lineNumber: 146,
                                 columnNumber: 2
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(OurProcess, {}, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 191,
+                                lineNumber: 187,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(AiAdvantage, {}, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 192,
+                                lineNumber: 188,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Services, {}, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 193,
+                                lineNumber: 189,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Testimonials, {}, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 194,
+                                lineNumber: 190,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(CallToAction, {}, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 195,
+                                lineNumber: 191,
                                 columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -1017,7 +1017,7 @@ function Home() {
                                                                 children: "Let's Build."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 204,
+                                                                lineNumber: 200,
                                                                 columnNumber: 17
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1025,7 +1025,7 @@ function Home() {
                                                                 children: "Our engineers are ready to architect your next breakthrough."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 207,
+                                                                lineNumber: 203,
                                                                 columnNumber: 17
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1040,12 +1040,12 @@ function Home() {
                                                                                     className: "w-6 h-6 text-accent"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 215,
+                                                                                    lineNumber: 211,
                                                                                     columnNumber: 23
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 214,
+                                                                                lineNumber: 210,
                                                                                 columnNumber: 21
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1055,7 +1055,7 @@ function Home() {
                                                                                         children: "Secure Channel"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 218,
+                                                                                        lineNumber: 214,
                                                                                         columnNumber: 23
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1063,19 +1063,19 @@ function Home() {
                                                                                         children: "contactfluix@gmail.com"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 221,
+                                                                                        lineNumber: 217,
                                                                                         columnNumber: 23
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 217,
+                                                                                lineNumber: 213,
                                                                                 columnNumber: 21
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 213,
+                                                                        lineNumber: 209,
                                                                         columnNumber: 19
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1087,12 +1087,12 @@ function Home() {
                                                                                     className: "w-6 h-6 text-accent"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 227,
+                                                                                    lineNumber: 223,
                                                                                     columnNumber: 23
                                                                                 }, this)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 226,
+                                                                                lineNumber: 222,
                                                                                 columnNumber: 21
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1102,7 +1102,7 @@ function Home() {
                                                                                         children: "HQ Location"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 230,
+                                                                                        lineNumber: 226,
                                                                                         columnNumber: 23
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1110,31 +1110,31 @@ function Home() {
                                                                                         children: "Islamabad, Pakistan"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 233,
+                                                                                        lineNumber: 229,
                                                                                         columnNumber: 23
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/pages/index.tsx",
-                                                                                lineNumber: 229,
+                                                                                lineNumber: 225,
                                                                                 columnNumber: 21
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 225,
+                                                                        lineNumber: 221,
                                                                         columnNumber: 19
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/pages/index.tsx",
-                                                                lineNumber: 212,
+                                                                lineNumber: 208,
                                                                 columnNumber: 17
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 203,
+                                                        lineNumber: 199,
                                                         columnNumber: 15
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1152,28 +1152,28 @@ function Home() {
                                                                         className: "w-5 h-5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/index.tsx",
-                                                                        lineNumber: 247,
+                                                                        lineNumber: 243,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 }, idx, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 242,
+                                                                    lineNumber: 238,
                                                                     columnNumber: 21
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 240,
+                                                            lineNumber: 236,
                                                             columnNumber: 17
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 239,
+                                                        lineNumber: 235,
                                                         columnNumber: 15
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 202,
+                                                lineNumber: 198,
                                                 columnNumber: 13
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1184,7 +1184,7 @@ function Home() {
                                                         children: "Fill out the form and our team will get back to you within 24 hours."
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 256,
+                                                        lineNumber: 252,
                                                         columnNumber: 13
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$form$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["Form"], {
@@ -1202,7 +1202,7 @@ function Home() {
                                                                                     children: "Full Name"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 270,
+                                                                                    lineNumber: 266,
                                                                                     columnNumber: 25
                                                                                 }, void 0),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$form$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["FormControl"], {
@@ -1212,28 +1212,28 @@ function Home() {
                                                                                         ...field
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 272,
+                                                                                        lineNumber: 268,
                                                                                         columnNumber: 27
                                                                                     }, void 0)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 271,
+                                                                                    lineNumber: 267,
                                                                                     columnNumber: 25
                                                                                 }, void 0),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$form$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["FormMessage"], {}, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 278,
+                                                                                    lineNumber: 274,
                                                                                     columnNumber: 25
                                                                                 }, void 0)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 269,
+                                                                            lineNumber: 265,
                                                                             columnNumber: 23
                                                                         }, void 0)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 265,
+                                                                    lineNumber: 261,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$form$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["FormField"], {
@@ -1245,7 +1245,7 @@ function Home() {
                                                                                     children: "Email Address"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 288,
+                                                                                    lineNumber: 284,
                                                                                     columnNumber: 25
                                                                                 }, void 0),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$form$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["FormControl"], {
@@ -1256,28 +1256,28 @@ function Home() {
                                                                                         ...field
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 290,
+                                                                                        lineNumber: 286,
                                                                                         columnNumber: 27
                                                                                     }, void 0)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 289,
+                                                                                    lineNumber: 285,
                                                                                     columnNumber: 25
                                                                                 }, void 0),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$form$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["FormMessage"], {}, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 297,
+                                                                                    lineNumber: 293,
                                                                                     columnNumber: 25
                                                                                 }, void 0)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 287,
+                                                                            lineNumber: 283,
                                                                             columnNumber: 23
                                                                         }, void 0)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 283,
+                                                                    lineNumber: 279,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$form$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["FormField"], {
@@ -1289,7 +1289,7 @@ function Home() {
                                                                                     children: "How can we help?"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 307,
+                                                                                    lineNumber: 303,
                                                                                     columnNumber: 25
                                                                                 }, void 0),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$form$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["FormControl"], {
@@ -1299,28 +1299,28 @@ function Home() {
                                                                                         ...field
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/pages/index.tsx",
-                                                                                        lineNumber: 309,
+                                                                                        lineNumber: 305,
                                                                                         columnNumber: 27
                                                                                     }, void 0)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 308,
+                                                                                    lineNumber: 304,
                                                                                     columnNumber: 25
                                                                                 }, void 0),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$form$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["FormMessage"], {}, void 0, false, {
                                                                                     fileName: "[project]/pages/index.tsx",
-                                                                                    lineNumber: 315,
+                                                                                    lineNumber: 311,
                                                                                     columnNumber: 25
                                                                                 }, void 0)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/pages/index.tsx",
-                                                                            lineNumber: 306,
+                                                                            lineNumber: 302,
                                                                             columnNumber: 23
                                                                         }, void 0)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 302,
+                                                                    lineNumber: 298,
                                                                     columnNumber: 19
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -1330,46 +1330,46 @@ function Home() {
                                                                     children: submitContact.isPending ? "Sending..." : "Send Message"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.tsx",
-                                                                    lineNumber: 320,
+                                                                    lineNumber: 316,
                                                                     columnNumber: 19
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/index.tsx",
-                                                            lineNumber: 261,
+                                                            lineNumber: 257,
                                                             columnNumber: 17
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.tsx",
-                                                        lineNumber: 260,
+                                                        lineNumber: 256,
                                                         columnNumber: 15
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.tsx",
-                                                lineNumber: 255,
+                                                lineNumber: 251,
                                                 columnNumber: 13
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.tsx",
-                                        lineNumber: 200,
+                                        lineNumber: 196,
                                         columnNumber: 11
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.tsx",
-                                    lineNumber: 199,
+                                    lineNumber: 195,
                                     columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.tsx",
-                                lineNumber: 198,
+                                lineNumber: 194,
                                 columnNumber: 7
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 148,
+                        lineNumber: 144,
                         columnNumber: 1
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("script", {
@@ -1408,13 +1408,13 @@ function Home() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
-                        lineNumber: 334,
+                        lineNumber: 330,
                         columnNumber: 1
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.tsx",
-                lineNumber: 76,
+                lineNumber: 75,
                 columnNumber: 5
             }, this)
         ]

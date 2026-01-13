@@ -78,48 +78,45 @@ export default function Home() {
       {/* Hero Section */}
      
       <section
-        id="home"
-        className=" relative h-screen flex items-center justify-center bg-mesh text-white pt-24 overflow-hidden"
+  id="home"
+  className="relative h-screen flex items-center justify-center bg-mesh text-white pt-10 overflow-hidden"
+>
+  <div className="absolute inset-0 bg-black/40" />
+  <div className="container relative z-10 px-4 sm:px-6 md:px-8 text-center">
+    <motion.div
+      initial={{ opacity: 0, y: 50, scale: 0.95 }}
+      animate={{ opacity: 1, y: 0, scale: 1 }}
+      transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+      className="max-w-3xl mx-auto"
+    >
+      <motion.div
+        initial={{ opacity: 0, scale: 0.85 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.2 }}
+        className="inline-block mb-4 sm:mb-6 px-3 py-1 rounded-full bg-white/10 border border-white/20 backdrop-blur-md shadow-[0_0_12px_rgba(59,169,255,0.3)]"
       >
-        <div className="absolute inset-0 bg-black/40" />
-        <div className="container relative z-10 px-4 md:px-6 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 50, scale: 0.9 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-            className="max-w-4xl mx-auto"
-          >
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.2 }}
-              className="inline-block mb-6 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-md shadow-[0_0_15px_rgba(59,169,255,0.3)]"
-            >
-              <span className="text-sm font-medium text-blue-200">
-                 AI-Powered Business Future
-              </span>
-            </motion.div>
+        <span className="text-xs sm:text-sm font-medium text-blue-200">
+          AI-Powered Business Future
+        </span>
+      </motion.div>
 
-      
-      <h1 className="text-[2.25rem] leading-tight sm:text-5xl md:text-6xl lg:text-7xl font-bold font-heading tracking-tight mb-6">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-heading tracking-tight mb-4 sm:mb-6 leading-snug sm:leading-tight">
         AI Automation for Businesses That Want to
         <span className="block text-accent italic"> Scale Faster</span>
       </h1>
 
-  
-      <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
-        We design and deploy AI systems for local businesses, agencies, and enterprises, automating leads, customer support,
-        reporting, and workflows
+      <p className="text-sm sm:text-base md:text-lg text-gray-200 mb-6 sm:mb-10 max-w-xl sm:max-w-2xl mx-auto font-light leading-relaxed">
+        We design and deploy AI systems for local businesses, agencies, and enterprises,
+        automating leads, customer support, reporting, and workflows.
       </p>
 
-    
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
         <Button
           onClick={scrollToContact}
           size="lg"
-          className="w-full sm:w-auto h-14 px-8 rounded-full bg-accent text-white font-semibold shadow-[0_0_20px_rgba(59,169,255,0.5)] transition-transform active:scale-95"
+          className="w-full sm:w-auto h-12 sm:h-14 px-6 sm:px-8 rounded-full bg-accent text-white font-semibold shadow-[0_0_15px_rgba(59,169,255,0.5)] transition-transform active:scale-95"
         >
-          Start Automating <ArrowRight className="ml-2 w-5 h-5" />
+          Start Automating <ArrowRight className="ml-2 w-4 sm:w-5 h-4 sm:h-5" />
         </Button>
 
         <Button
@@ -130,7 +127,7 @@ export default function Home() {
           }
           variant="outline"
           size="lg"
-          className="w-full sm:w-auto h-14 px-8 rounded-full border-white/30 bg-white/5 backdrop-blur-md text-white hover:bg-white/10"
+          className="w-full sm:w-auto h-12 sm:h-14 px-6 sm:px-8 rounded-full border-white/30 bg-white/5 backdrop-blur-md text-white hover:bg-white/10"
         >
           View Solutions
         </Button>
@@ -138,9 +135,9 @@ export default function Home() {
     </motion.div>
   </div>
 
-  
-  <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-background to-transparent" />
+  <div className="absolute bottom-0 left-0 w-full h-20 sm:h-24 bg-gradient-to-t from-background to-transparent" />
 </section>
+
 
       <h2 className="sr-only">AI Automation for Local Businesses, Agencies, and Enterprises</h2>
 
