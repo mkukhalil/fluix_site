@@ -6,15 +6,12 @@ import { Button } from "@/components/ui/button";
 
 export default function CTA() {
   const scrollToContact = () => {
-    document
-      .getElementById("contact")
-      ?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
     <section className="py-32 futuristic-gradient text-white relative overflow-hidden">
       <div className="container relative z-10 mx-auto px-4 text-center">
-
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -37,7 +34,6 @@ export default function CTA() {
             Get Started Now <ArrowRight className="ml-3 w-6 h-6" />
           </Button>
         </motion.div>
-
       </div>
     </section>
   );

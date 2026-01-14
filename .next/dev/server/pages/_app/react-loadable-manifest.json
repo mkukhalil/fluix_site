@@ -1,1 +1,10 @@
-{}
+{
+  "[project]/client/src/components/ClientProviders.tsx [client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/client/src/components/ClientProviders.tsx [client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_449ff9c2._.js",
+      "static/chunks/client_src_98b349b5._.js",
+      "static/chunks/client_src_components_ClientProviders_tsx_3a59a81b._.js"
+    ]
+  }
+}

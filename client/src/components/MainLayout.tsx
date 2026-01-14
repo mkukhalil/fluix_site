@@ -5,12 +5,12 @@ import { ScrollProgress } from "./ScrollProgress";
 
 interface MainLayoutProps {
   children: ReactNode;
-  className?: string; // optional
+  className?: string;
 }
 
 export function MainLayout({ children, className = "" }: MainLayoutProps) {
   return (
-    <div className={className}> {/* Apply className here */}
+    <div className={className}>
       <ScrollProgress />
       <Navbar />
       <main className="min-h-screen">{children}</main>

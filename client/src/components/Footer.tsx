@@ -1,4 +1,3 @@
-// client/src/components/Footer.tsx
 import Image from "next/image";
 
 export function Footer() {

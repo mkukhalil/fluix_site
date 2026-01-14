@@ -1,16 +1,46 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  Clock,MessageSquare,TrendingUp,Workflow,Users,Zap,
-} from "lucide-react";
+import { Clock, MessageSquare, TrendingUp, Workflow, Users, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function AiAdvantage() {
+  const features = [
+    {
+      icon: <Clock className="w-10 h-10 text-red-500" />,
+      title: "Zero Delay Leads",
+      problem: "Slow follow-ups cost deals",
+      solution: "Instant AI lead qualification & notifications",
+    },
+    {
+      icon: <MessageSquare className="w-10 h-10 text-accent" />,
+      title: "Always-On Communication",
+      problem: "Manual responses waste hours",
+      solution: "24/7 AI chatbots for Email & WhatsApp",
+    },
+    {
+      icon: <TrendingUp className="w-10 h-10 text-green-500" />,
+      title: "Hyper-Efficiency",
+      problem: "Repetitive workflows slow your growth",
+      solution: "End-to-end AI automation for all processes",
+    },
+    {
+      icon: <Workflow className="w-10 h-10 text-blue-500" />,
+      title: "Scalable Solutions",
+      problem: "Small systems can’t handle growth",
+      solution: "Flexible AI that grows with your business",
+    },
+    {
+      icon: <Users className="w-10 h-10 text-purple-500" />,
+      title: "Agency & Enterprise Ready",
+      problem: "One-size-fits-all solutions fail",
+      solution: "Tailored tools for agencies & large teams",
+    },
+  ];
+
   return (
     <section id="about" className="section-padding bg-background relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
-
         <div className="text-center mb-24">
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
@@ -26,38 +56,7 @@ export default function AiAdvantage() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
-          {[
-            {
-              icon: <Clock className="w-10 h-10 text-red-500" />,
-              title: "Zero Delay Leads",
-              problem: "Slow follow-ups cost deals",
-              solution: "Instant AI lead qualification & notifications",
-            },
-            {
-              icon: <MessageSquare className="w-10 h-10 text-accent" />,
-              title: "Always-On Communication",
-              problem: "Manual responses waste hours",
-              solution: "24/7 AI chatbots for Email & WhatsApp",
-            },
-            {
-              icon: <TrendingUp className="w-10 h-10 text-green-500" />,
-              title: "Hyper-Efficiency",
-              problem: "Repetitive workflows slow your growth",
-              solution: "End-to-end AI automation for all processes",
-            },
-            {
-              icon: <Workflow className="w-10 h-10 text-blue-500" />,
-              title: "Scalable Solutions",
-              problem: "Small systems can’t handle growth",
-              solution: "Flexible AI that grows with your business",
-            },
-            {
-              icon: <Users className="w-10 h-10 text-purple-500" />,
-              title: "Agency & Enterprise Ready",
-              problem: "One-size-fits-all solutions fail",
-              solution: "Tailored tools for agencies & large teams",
-            },
-          ].map((item, i) => (
+          {features.map((item, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, scale: 0.9, y: 50 }}
@@ -94,7 +93,6 @@ export default function AiAdvantage() {
             Book Your Free Demo
           </Button>
         </div>
-
       </div>
     </section>
   );

@@ -1,16 +1,18 @@
+import Head from "next/head";
+import dynamic from "next/dynamic";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { motion, useScroll, useSpring } from "framer-motion";
+import { ArrowRight, Mail, MapPin, Linkedin, Twitter, Instagram, ShoppingCart, Users, Briefcase } from "lucide-react";
+
 import { ServiceCard } from "../client/src/components/ServiceCard";
 import { useSubmitContact } from "../client/src/hooks/use-contact";
 import { Button } from "../client/src/components/ui/button";
 import { Input } from "../client/src/components/ui/input";
 import { Textarea } from "../client/src/components/ui/textarea";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../client/src/components/ui/form";
-import { ArrowRight, Mail, MapPin, Linkedin, Twitter, Instagram, ShoppingCart, Users, Briefcase } from "lucide-react";
-import { motion, useScroll, useSpring } from "framer-motion";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
+
 import { insertContactMessageSchema, type InsertContactMessage } from "../shared/schema";
-import Head from "next/head";
-import dynamic from "next/dynamic";
 
 export default function Home() {
   const submitContact = useSubmitContact();
@@ -26,6 +28,7 @@ export default function Home() {
 
   const scrollToContact = () => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
 
+  // Dynamic sections (SSR disabled)
   const OurProcess = dynamic(() => import("../client/src/components/OurProcess"), { ssr: false });
   const AiAdvantage = dynamic(() => import("../client/src/components/AiAdvantage"), { ssr: false });
   const Testimonials = dynamic(() => import("../client/src/components/Testimonials"), { ssr: false });
@@ -60,21 +63,9 @@ export default function Home() {
         <header id="home" className="relative h-screen flex items-center justify-center bg-mesh text-white pt-10 overflow-hidden">
           <div className="absolute inset-0 bg-black/40" />
           <div className="container relative z-10 px-4 sm:px-6 md:px-8 text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 50, scale: 0.95 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-              className="max-w-3xl mx-auto"
-            >
-              <motion.div
-                initial={{ opacity: 0, scale: 0.85 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.2 }}
-                className="inline-block mb-4 sm:mb-6 px-3 py-1 rounded-full bg-white/10 border border-white/20 backdrop-blur-md shadow-[0_0_12px_rgba(59,169,255,0.3)]"
-              >
-                <span className="text-xs sm:text-sm font-medium text-blue-200">
-                  AI-Powered Business Future
-                </span>
+            <motion.div initial={{ opacity: 0, y: 50, scale: 0.95 }} animate={{ opacity: 1, y: 0, scale: 1 }} transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }} className="max-w-3xl mx-auto">
+              <motion.div initial={{ opacity: 0, scale: 0.85 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.2 }} className="inline-block mb-4 sm:mb-6 px-3 py-1 rounded-full bg-white/10 border border-white/20 backdrop-blur-md shadow-[0_0_12px_rgba(59,169,255,0.3)]">
+                <span className="text-xs sm:text-sm font-medium text-blue-200">AI-Powered Business Future</span>
               </motion.div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-heading tracking-tight mb-4 sm:mb-6 leading-snug sm:leading-tight">
@@ -90,7 +81,6 @@ export default function Home() {
                 <Button onClick={scrollToContact} size="lg" className="w-full sm:w-auto h-12 sm:h-14 px-6 sm:px-8 rounded-full bg-accent text-white font-semibold shadow-[0_0_15px_rgba(59,169,255,0.5)] transition-transform active:scale-95">
                   Start Automating <ArrowRight className="ml-2 w-4 sm:w-5 h-4 sm:h-5" />
                 </Button>
-
                 <Button onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })} variant="outline" size="lg" className="w-full sm:w-auto h-12 sm:h-14 px-6 sm:px-8 rounded-full border-white/30 bg-white/5 backdrop-blur-md text-white hover:bg-white/10">
                   View Solutions
                 </Button>
@@ -167,45 +157,33 @@ export default function Home() {
                   <p className="mb-6 sm:mb-8">Fill out the form and our team will get back to you within 24 hours.</p>
                   <Form {...form}>
                     <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 sm:space-y-6">
-                      <FormField
-                        control={form.control}
-                        name="name"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>Full Name</FormLabel>
-                            <FormControl>
-                              <Input placeholder="John Doe" className="h-12 sm:h-14 bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl" {...field} />
-                            </FormControl>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
-                      <FormField
-                        control={form.control}
-                        name="email"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>Email Address</FormLabel>
-                            <FormControl>
-                              <Input type="email" placeholder="john@company.com" className="h-12 sm:h-14 bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl" {...field} />
-                            </FormControl>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
-                      <FormField
-                        control={form.control}
-                        name="message"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>How can we help?</FormLabel>
-                            <FormControl>
-                              <Textarea placeholder="Tell us about your manual processes..." className="min-h-[120px] bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl resize-none" {...field} />
-                            </FormControl>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
+                      <FormField control={form.control} name="name" render={({ field }) => (
+                        <FormItem>
+                          <FormLabel>Full Name</FormLabel>
+                          <FormControl>
+                            <Input placeholder="John Doe" className="h-12 sm:h-14 bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl" {...field} />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )} />
+                      <FormField control={form.control} name="email" render={({ field }) => (
+                        <FormItem>
+                          <FormLabel>Email Address</FormLabel>
+                          <FormControl>
+                            <Input type="email" placeholder="john@company.com" className="h-12 sm:h-14 bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl" {...field} />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )} />
+                      <FormField control={form.control} name="message" render={({ field }) => (
+                        <FormItem>
+                          <FormLabel>How can we help?</FormLabel>
+                          <FormControl>
+                            <Textarea placeholder="Tell us about your manual processes..." className="min-h-[120px] bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl resize-none" {...field} />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )} />
                       <Button type="submit" disabled={submitContact.isPending} className="w-full h-12 sm:h-14 text-lg rounded-xl bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20">
                         {submitContact.isPending ? "Sending..." : "Send Message"}
                       </Button>

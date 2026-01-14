@@ -3,6 +3,24 @@
 import { motion } from "framer-motion";
 import { Zap } from "lucide-react";
 
+const testimonialsData = [
+  {
+    quote: "Fluix completely transformed how we handle patient bookings. We save 20 hours a week!",
+    author: "Dr. Sarah Firdous",
+    role: "Dental Clinic Owner",
+  },
+  {
+    quote: "The lead qualification bot increased our conversion rate by 40% in just two months.",
+    author: "James Wilson",
+    role: "Real Estate Agency Director",
+  },
+  {
+    quote: "I can finally focus on strategy instead of copy-pasting data. The ROI was immediate.",
+    author: "Elena Rodriguez",
+    role: "E-commerce Founder",
+  },
+];
+
 export default function Testimonials() {
   return (
     <section id="testimonials" className="section-padding bg-background relative">
@@ -18,23 +36,7 @@ export default function Testimonials() {
         </motion.h2>
 
         <div className="grid md:grid-cols-3 gap-10">
-          {[
-            {
-              quote: "Fluix completely transformed how we handle patient bookings. We save 20 hours a week!",
-              author: "Dr. Sarah Firdous",
-              role: "Dental Clinic Owner",
-            },
-            {
-              quote: "The lead qualification bot increased our conversion rate by 40% in just two months.",
-              author: "James Wilson",
-              role: "Real Estate Agency Director",
-            },
-            {
-              quote: "I can finally focus on strategy instead of copy-pasting data. The ROI was immediate.",
-              author: "Elena Rodriguez",
-              role: "E-commerce Founder",
-            },
-          ].map((testimonial, i) => (
+          {testimonialsData.map((testimonial, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, x: i % 2 === 0 ? -50 : 50 }}
@@ -61,12 +63,8 @@ export default function Testimonials() {
                   {testimonial.author.charAt(0)}
                 </div>
                 <div>
-                  <div className="font-bold text-primary">
-                    {testimonial.author}
-                  </div>
-                  <div className="text-sm text-gray-500 font-medium">
-                    {testimonial.role}
-                  </div>
+                  <div className="font-bold text-primary">{testimonial.author}</div>
+                  <div className="text-sm text-gray-500 font-medium">{testimonial.role}</div>
                 </div>
               </div>
             </motion.div>

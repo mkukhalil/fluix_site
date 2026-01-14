@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -19,52 +19,38 @@ export function Navbar() {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       setScrolled(scrollY > 20);
-
-      if (isHome) {
-        const heroHeight =
-          document.getElementById("home")?.offsetHeight || window.innerHeight;
-        setShowHomeLink(scrollY > heroHeight);
-      } else {
-        setShowHomeLink(true);
-      }
+      const heroHeight = document.getElementById("home")?.offsetHeight || window.innerHeight;
+      setShowHomeLink(!isHome || scrollY > heroHeight);
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // initialize
+    handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, [isHome]);
 
-  // Memoize links to prevent re-renders
-  const navLinks = useMemo(
-    () => [
-      { name: "Home", href: "#home", show: showHomeLink },
-      { name: "Services", href: "#services", show: true },
-      { name: "About", href: "#about", show: true },
-      { name: "Testimonials", href: "#testimonials", show: true },
-    ],
-    [showHomeLink]
-  );
+  const navLinks = [
+    { name: "Home", href: "#home", show: showHomeLink },
+    { name: "Services", href: "#services", show: true },
+    { name: "About", href: "#about", show: true },
+    { name: "Testimonials", href: "#testimonials", show: true },
+  ];
 
-  const handleNavClick = useCallback(
-    async (href: string) => {
-      setIsOpen(false);
-      if (!isHome) {
-        await router.push("/" + href);
-        return;
-      }
-      const el = document.querySelector(href);
-      el?.scrollIntoView({ behavior: "smooth" });
-    },
-    [isHome, router]
-  );
+  const handleNavClick = async (href: string) => {
+    setIsOpen(false);
+    if (!isHome) {
+      await router.push("/" + href);
+      return;
+    }
+    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+  };
 
-  const handleLogoClick = useCallback(async () => {
+  const handleLogoClick = async () => {
     if (!isHome) {
       await router.push("/");
     } else {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
-  }, [isHome, router]);
+  };
 
   return (
     <nav
@@ -79,26 +65,12 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         {/* Logo */}
-        <button
-          onClick={handleLogoClick}
-          className="flex items-center gap-3 focus:outline-none"
-        >
-          <Image
-            src="/logo.webp" // convert your logo to WebP for smaller size
-            alt="Fluix Logo"
-            width={40}
-            height={40}
-            priority // above-the-fold image
-            className="object-contain"
-          />
+        <button onClick={handleLogoClick} className="flex items-center gap-3 focus:outline-none">
+          <Image src="/logo.webp" alt="Fluix Logo" width={40} height={40} priority className="object-contain" />
           <span
             className={cn(
               "text-xl font-bold font-heading transition-colors",
-              isHome
-                ? scrolled
-                  ? "text-primary"
-                  : "text-white"
-                : "text-primary"
+              isHome && !scrolled ? "text-white" : "text-primary"
             )}
           >
             Fluix
@@ -120,11 +92,7 @@ export function Navbar() {
                   transition={{ delay: i * 0.05, duration: 0.25 }}
                   className={cn(
                     "text-sm font-medium transition-colors",
-                    isHome
-                      ? scrolled
-                        ? "text-gray-600 hover:text-primary"
-                        : "text-gray-200 hover:text-white"
-                      : "text-gray-600 hover:text-primary"
+                    isHome && !scrolled ? "text-gray-200 hover:text-white" : "text-gray-600 hover:text-primary"
                   )}
                 >
                   {link.name}
@@ -145,11 +113,7 @@ export function Navbar() {
           onClick={() => setIsOpen((v) => !v)}
           className={cn(
             "md:hidden p-2 rounded-md transition-colors",
-            isHome
-              ? scrolled
-                ? "text-primary"
-                : "text-white"
-              : "text-primary"
+            isHome && !scrolled ? "text-white" : "text-primary"
           )}
         >
           {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}

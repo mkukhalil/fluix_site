@@ -3,35 +3,35 @@
     "id": "[project]/client/src/components/OurProcess.tsx [client] (ecmascript, next/dynamic entry)",
     "files": [
       "static/chunks/_87821c79._.js",
-      "static/chunks/client_src_components_OurProcess_tsx_0a92aa51._.js"
+      "static/chunks/client_src_components_OurProcess_tsx_3b7a6e54._.js"
     ]
   },
   "[project]/client/src/components/AiAdvantage.tsx [client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/client/src/components/AiAdvantage.tsx [client] (ecmascript, next/dynamic entry)",
     "files": [
       "static/chunks/_95d38cff._.js",
-      "static/chunks/client_src_components_AiAdvantage_tsx_0a92aa51._.js"
+      "static/chunks/client_src_components_AiAdvantage_tsx_3b7a6e54._.js"
     ]
   },
   "[project]/client/src/components/Testimonials.tsx [client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/client/src/components/Testimonials.tsx [client] (ecmascript, next/dynamic entry)",
     "files": [
       "static/chunks/_b2eb9122._.js",
-      "static/chunks/client_src_components_Testimonials_tsx_0a92aa51._.js"
+      "static/chunks/client_src_components_Testimonials_tsx_3b7a6e54._.js"
     ]
   },
   "[project]/client/src/components/Services.tsx [client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/client/src/components/Services.tsx [client] (ecmascript, next/dynamic entry)",
     "files": [
       "static/chunks/_b2972ccf._.js",
-      "static/chunks/client_src_components_Services_tsx_0a92aa51._.js"
+      "static/chunks/client_src_components_Services_tsx_3b7a6e54._.js"
     ]
   },
   "[project]/client/src/components/CallToAction.tsx [client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/client/src/components/CallToAction.tsx [client] (ecmascript, next/dynamic entry)",
     "files": [
       "static/chunks/client_src_components_CallToAction_tsx_68842fe9._.js",
-      "static/chunks/client_src_components_CallToAction_tsx_0a92aa51._.js"
+      "static/chunks/client_src_components_CallToAction_tsx_3b7a6e54._.js"
     ]
   }
 }

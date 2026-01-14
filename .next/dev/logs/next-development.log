@@ -1,11 +1,27 @@
-[00:00:05.371] Server  LOG     ✓ Ready in 3.8s
-[00:00:15.634] Server  LOG     ○ Compiling / ...
-[00:01:40.733] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:16.209] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:41.041] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:49.730] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:46.869] Server  LOG     ✓ Compiled in 3.7s
-[00:05:54.265] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:14.013] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:34.821] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:42.652] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.143] Server  LOG     ✓ Ready in 7.7s
+[00:00:36.071] Server  LOG     ○ Compiling / ...
+[00:01:06.732] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:19.565] Server  LOG     ✓ Finished filesystem cache database compaction in 12.8s
+[00:01:20.653] Server  LOG     ✓ Finished writing to filesystem cache in 12.0s
+[00:02:04.291] Server  LOG     ✓ Compiled in 4.6s
+[00:02:07.941] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:18.551] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:42.008] Server  LOG     ✓ Compiled in 1644ms
+[00:04:49.359] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:56.217] Server  LOG     ✓ Compiled in 604ms
+[00:06:52.732] Server  LOG     ✓ Compiled in 269ms
+[00:08:46.663] Server  LOG     ✓ Compiled in 347ms
+[00:09:56.430] Server  LOG     ✓ Compiled in 273ms
+[00:10:48.080] Server  LOG     ✓ Compiled in 341ms
+[00:11:52.568] Server  LOG     ✓ Compiled in 865ms
+[00:12:40.290] Server  LOG     ✓ Compiled in 422ms
+[00:13:36.381] Server  LOG     ✓ Compiled in 316ms
+[00:14:52.234] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:18:10.359] Server  LOG     ✓ Compiled in 3.3s
+[00:18:13.096] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:18:25.191] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:52.022] Server  LOG     ✓ Compiled in 3s
+[00:24:40.465] Server  LOG     ✓ Compiled in 1780ms
+[00:24:42.903] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:25:03.443] Server  LOG     ✓ Compiled in 1186ms
+[00:25:09.247] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
