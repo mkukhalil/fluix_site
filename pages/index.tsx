@@ -25,7 +25,6 @@ export default function Home() {
   });
 
   const onSubmit = (data: InsertContactMessage) => submitContact.mutate(data, { onSuccess: () => form.reset() });
-
   const scrollToContact = () => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
 
   // Dynamic sections (SSR disabled)
@@ -78,10 +77,21 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
-                <Button onClick={scrollToContact} size="lg" className="w-full sm:w-auto h-12 sm:h-14 px-6 sm:px-8 rounded-full bg-accent text-white font-semibold shadow-[0_0_15px_rgba(59,169,255,0.5)] transition-transform active:scale-95">
+                <Button
+                  onClick={scrollToContact}
+                  size="lg"
+                  className="w-full sm:w-auto h-12 sm:h-14 px-6 sm:px-8 rounded-full bg-accent text-white font-semibold shadow-[0_0_15px_rgba(59,169,255,0.5)] transition-transform active:scale-95"
+                  aria-label="Start Automating - Scroll to Contact Section"
+                >
                   Start Automating <ArrowRight className="ml-2 w-4 sm:w-5 h-4 sm:h-5" />
                 </Button>
-                <Button onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })} variant="outline" size="lg" className="w-full sm:w-auto h-12 sm:h-14 px-6 sm:px-8 rounded-full border-white/30 bg-white/5 backdrop-blur-md text-white hover:bg-white/10">
+                <Button
+                  onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
+                  variant="outline"
+                  size="lg"
+                  className="w-full sm:w-auto h-12 sm:h-14 px-6 sm:px-8 rounded-full border-white/30 bg-white/5 backdrop-blur-md text-white hover:bg-white/10"
+                  aria-label="View Solutions - Scroll to Services Section"
+                >
                   View Solutions
                 </Button>
               </div>
@@ -100,9 +110,24 @@ export default function Home() {
                 </motion.h2>
               </div>
               <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                <ServiceCard icon={<ShoppingCart className="w-10 h-10 text-primary" />} title="Local Businesses" description="Automate customer interactions, booking systems, and reporting to save time and grow locally." delay={0.05} />
-                <ServiceCard icon={<Users className="w-10 h-10 text-primary" />} title="Agencies" description="Streamline client campaigns, automate reporting, and manage multiple accounts effortlessly." delay={0.1} />
-                <ServiceCard icon={<Briefcase className="w-10 h-10 text-primary" />} title="Enterprises" description="Integrate AI into large-scale workflows, CRMs, and analytics for maximum operational efficiency." delay={0.15} />
+                <ServiceCard
+                  icon={<ShoppingCart className="w-10 h-10 text-primary" />}
+                  title="Local Businesses"
+                  description="Automate customer interactions, booking systems, and reporting to save time and grow locally."
+                  delay={0.05}
+                />
+                <ServiceCard
+                  icon={<Users className="w-10 h-10 text-primary" />}
+                  title="Agencies"
+                  description="Streamline client campaigns, automate reporting, and manage multiple accounts effortlessly."
+                  delay={0.1}
+                />
+                <ServiceCard
+                  icon={<Briefcase className="w-10 h-10 text-primary" />}
+                  title="Enterprises"
+                  description="Integrate AI into large-scale workflows, CRMs, and analytics for maximum operational efficiency."
+                  delay={0.15}
+                />
               </div>
             </div>
           </section>
@@ -125,7 +150,7 @@ export default function Home() {
                     <div className="space-y-6 sm:space-y-10">
                       <div className="flex items-center gap-4 sm:gap-6">
                         <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-white/10 backdrop-blur-xl flex items-center justify-center border border-white/20 shadow-lg">
-                          <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-accent" />
+                          <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-accent" aria-hidden="true" />
                         </div>
                         <div>
                           <div className="text-xs sm:text-sm text-blue-200 uppercase tracking-[0.15em] font-bold mb-1">Secure Channel</div>
@@ -134,7 +159,7 @@ export default function Home() {
                       </div>
                       <div className="flex items-center gap-4 sm:gap-6">
                         <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-white/10 backdrop-blur-xl flex items-center justify-center border border-white/20 shadow-lg">
-                          <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-accent" />
+                          <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-accent" aria-hidden="true" />
                         </div>
                         <div>
                           <div className="text-xs sm:text-sm text-blue-200 uppercase tracking-[0.15em] font-bold mb-1">HQ Location</div>
@@ -145,8 +170,13 @@ export default function Home() {
                   </div>
                   <div className="mt-8 sm:mt-16 pt-4 sm:pt-10 border-t border-white/10 flex gap-4 sm:gap-6">
                     {[Linkedin, Twitter, Instagram].map((Icon, idx) => (
-                      <a key={idx} href="#" aria-label={Icon.name} className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-accent hover:text-white transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,169,255,0.4)]">
-                        <Icon className="w-4 h-4 sm:w-5 sm:h-5" />
+                      <a
+                        key={idx}
+                        href="#"
+                        aria-label={`Follow us on ${Icon.name}`}
+                        className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-accent hover:text-white transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,169,255,0.4)]"
+                      >
+                        <Icon className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
                       </a>
                     ))}
                   </div>
@@ -161,7 +191,7 @@ export default function Home() {
                         <FormItem>
                           <FormLabel>Full Name</FormLabel>
                           <FormControl>
-                            <Input placeholder="John Doe" className="h-12 sm:h-14 bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl" {...field} />
+                            <Input placeholder="John Doe" className="h-12 sm:h-14 bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl" {...field} aria-label="Full Name" />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -170,7 +200,7 @@ export default function Home() {
                         <FormItem>
                           <FormLabel>Email Address</FormLabel>
                           <FormControl>
-                            <Input type="email" placeholder="john@company.com" className="h-12 sm:h-14 bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl" {...field} />
+                            <Input type="email" placeholder="john@company.com" className="h-12 sm:h-14 bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl" {...field} aria-label="Email Address" />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -179,12 +209,17 @@ export default function Home() {
                         <FormItem>
                           <FormLabel>How can we help?</FormLabel>
                           <FormControl>
-                            <Textarea placeholder="Tell us about your manual processes..." className="min-h-[120px] bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl resize-none" {...field} />
+                            <Textarea placeholder="Tell us about your manual processes..." className="min-h-[120px] bg-gray-50 border-gray-200 focus:border-primary focus:ring-primary/10 rounded-xl resize-none" {...field} aria-label="Message" />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
                       )} />
-                      <Button type="submit" disabled={submitContact.isPending} className="w-full h-12 sm:h-14 text-lg rounded-xl bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20">
+                      <Button
+                        type="submit"
+                        disabled={submitContact.isPending}
+                        className="w-full h-12 sm:h-14 text-lg rounded-xl bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20"
+                        aria-label={submitContact.isPending ? "Sending message" : "Send Message"}
+                      >
                         {submitContact.isPending ? "Sending..." : "Send Message"}
                       </Button>
                     </form>

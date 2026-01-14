@@ -62,11 +62,24 @@ export function Navbar() {
             : "bg-transparent py-5"
           : "bg-white shadow-sm border-b border-gray-100 py-3"
       )}
+      role="navigation"
+      aria-label="Main navigation"
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         {/* Logo */}
-        <button onClick={handleLogoClick} className="flex items-center gap-3 focus:outline-none">
-          <Image src="/logo.webp" alt="Fluix Logo" width={40} height={40} priority className="object-contain" />
+        <button
+          onClick={handleLogoClick}
+          className="flex items-center gap-3 focus:outline-none"
+          aria-label="Go to homepage"
+        >
+          <Image
+            src="/logo.webp"
+            alt="Fluix Logo"
+            width={40}
+            height={40}
+            priority
+            className="object-contain"
+          />
           <span
             className={cn(
               "text-xl font-bold font-heading transition-colors",
@@ -92,7 +105,9 @@ export function Navbar() {
                   transition={{ delay: i * 0.05, duration: 0.25 }}
                   className={cn(
                     "text-sm font-medium transition-colors",
-                    isHome && !scrolled ? "text-gray-200 hover:text-white" : "text-gray-600 hover:text-primary"
+                    isHome && !scrolled
+                      ? "text-gray-200 hover:text-white"
+                      : "text-gray-600 hover:text-primary"
                   )}
                 >
                   {link.name}
@@ -102,7 +117,7 @@ export function Navbar() {
 
           <Button
             onClick={() => handleNavClick("#contact")}
-            className="rounded-full text-white btn-accent px-4 py-2 text-sm font-semibold shadow-lg shadow-accent/25"
+            className="rounded-full bg-accent hover:bg-accent/90 text-white shadow-lg shadow-accent/25"
           >
             Book Demo
           </Button>
@@ -115,6 +130,7 @@ export function Navbar() {
             "md:hidden p-2 rounded-md transition-colors",
             isHome && !scrolled ? "text-white" : "text-primary"
           )}
+          aria-label={isOpen ? "Close menu" : "Open menu"}
         >
           {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
