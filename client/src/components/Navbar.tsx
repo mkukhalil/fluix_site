@@ -102,7 +102,7 @@ export function Navbar() {
 
           <Button
             onClick={() => handleNavClick("#contact")}
-            className="rounded-full bg-accent hover:bg-accent/90 text-white shadow-lg shadow-accent/25"
+            className="rounded-full text-white btn-accent px-4 py-2 text-sm font-semibold shadow-lg shadow-accent/25"
           >
             Book Demo
           </Button>

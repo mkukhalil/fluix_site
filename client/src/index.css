@@ -97,11 +97,20 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: #3BA9FF;
+  background: rgb(0, 115, 230);
   transform-origin: 0%;
   z-index: 100;
 }
 
 .section-padding {
   @apply py-24 md:py-40;
+}
+
+.btn-accent {
+  background-color: rgb(0, 115, 230); /* darker than original accent */
+  color: #ffffff; /* keep text fully white */
+}
+
+.btn-accent:hover {
+  background-color: rgb(0, 95, 190); /* darker on hover */
 }
