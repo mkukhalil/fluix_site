@@ -6,7 +6,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-12">
           <div className="flex items-center gap-4">
             <img
-              src="/logo.png"
+              src="/logo.webp"
               alt="Fluix Logo"
               className="h-10 w-10 object-contain"
             />
