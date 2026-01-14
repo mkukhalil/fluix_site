@@ -1,14 +1,20 @@
 // client/src/components/Footer.tsx
+import Image from "next/image";
+
 export function Footer() {
   return (
     <footer className="bg-primary text-white py-20 border-t border-white/5 relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-center gap-12">
+
           <div className="flex items-center gap-4">
-            <img
+            <Image
               src="/logo.webp"
               alt="Fluix Logo"
-              className="h-10 w-10 object-contain"
+              width={40}
+              height={40}
+              sizes="40px"
+              className="object-contain"
             />
             <span className="text-3xl font-bold font-heading tracking-tighter glow-text">
               Fluix
@@ -23,6 +29,7 @@ export function Footer() {
             <a href="/privacy" className="hover:text-accent transition-colors">Privacy</a>
             <a href="/terms" className="hover:text-accent transition-colors">Terms</a>
           </div>
+
         </div>
       </div>
     </footer>
