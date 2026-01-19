@@ -89,7 +89,7 @@ export default function Home() {
       </motion.div>
 
       {/* Heading */}
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-heading tracking-tight mb-3 sm:my-5 leading-tight">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-heading tracking-tight mb-4 mt-4 sm:my-5 leading-tight">
         AI Automation for Businesses That Want to
         <span className="block text-accent italic">Scale Faster</span>
       </h1>
