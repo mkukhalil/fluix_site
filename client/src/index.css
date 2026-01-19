@@ -103,6 +103,9 @@
 }
 
 .section-padding {
-  @apply py-24 md:py-40;
+  @apply  md:py-40;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+
 }
 
